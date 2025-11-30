@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const adminAxiosInstance = axios.create({
-    baseURL:'https://datasecure-prevent-data-breaches.onrender.com',
+    baseURL:'https://data-secure-prevent-data-breaches.vercel.app',
     timeout: 60000,
     headers: {
         "Content-Type": "application/json"
