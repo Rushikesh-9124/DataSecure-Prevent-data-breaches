@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosInstance = axios.create({
-    baseURL:'http://localhost:5001',
+    baseURL:'https://data-secure-prevent-data-breaches.vercel.app',
     timeout: 60000,
     headers: {
         "Content-Type": "application/json"
